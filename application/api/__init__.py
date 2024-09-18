@@ -1,6 +1,3 @@
-def main():
-    ...
-    
+from fastapi import APIRouter
 
-if __name__ == '__main__':
-    main()
+router = APIRouter()
